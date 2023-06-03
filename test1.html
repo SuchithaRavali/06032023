@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex example</title>
+    <style>
+        h1{
+            font-size: xx-large;
+            color:red;
+            text-align: center;
+        }
+
+        body{
+            background-color: blueviolet;
+        }
+
+        
+
+        .abc>ul{
+            color: orange;
+            list-style-type:square;
+            list-style-position:inside;
+            text-align: center;
+            display: flex;  
+            flex-basis: 1000px;
+            flex-grow: ;
+        }
+
+       
+        .flex{
+            color:orchid;
+        }
+
+        .abc{
+            flex-wrap:wrap-reverse;
+            flex:1;
+        }
+    </style>
+</head>
+<body>
+    <div class="abc">
+        <h1>Test...Test...Test <span class="flex">Flexbox</span></h1>
+        <ul>
+            <li class="list1">Test1</li>
+            <li class="list2"> Test2</li>
+            <li class="list3">Test3</li>
+        </ul>
+    </div>
+</body>
+</html>
